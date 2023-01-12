@@ -1,0 +1,230 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mySlides{
+    display: none;
+}
+
+.img{
+    vertical-align: middle;
+}         
+/* Slideshow container */
+.slideshow-container {
+    max-width: 10000px;
+    position: flex;
+    margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 38%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 8px;
+    width: 8px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #D9D9D9;
+}
+
+.wrapper{
+    width: 1200px;
+    margin: auto;
+    position: relative;
+}
+
+.logo img{
+    font-size: 15px;
+    font-weight: 800;
+    float: left;
+    width: 190px;
+    height: auto;
+    margin: auto;
+    padding: 22px 0px 0px 10px;
+}
+.menu{
+    float:right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex; 
+    line-height: 80px;
+    position:sticky ; 
+    position:-webkit-sticky; 
+    top: 0; 
+    background-color: #0D0C0C;
+
+}
+
+nav ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow:hidden;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 16px 0px 16px;
+    text-decoration: none;
+}
+.menu ul li a:hover {
+    text-decoration: underline;
+}
+
+.sosmed{
+    display: flex;
+    position: sticky;
+    padding-left: 144px;
+    padding-right: 50px;
+}
+
+.youtube{
+    padding-top: 5px;
+    padding-left: 360px;
+    padding-right: 3px;
+}
+
+.spotify{
+    padding-top: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.instagram{
+    padding-top: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.facebook{
+    padding-top: 1px;
+    padding-left: 0px;
+    padding-right: 3px;
+}
+
+.tiktok{
+    padding-top: 4px;
+    padding-left: 0px;
+    padding-right: 5px;
+}
+
+.twitter{
+    padding-top: 5px;
+    padding-left: 0px;
+    padding-right: 8px;
+}
+
+.content{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+
+.distinct{
+    text-decoration: underline;
+    padding-left: 90px;
+    padding-right: 168px;
+}
+
+.forward{
+    text-decoration: underline;
+    padding-left: 70px;
+    padding-right: 150px;
+}
+
+.collective{
+    text-decoration: underline;
+    padding-left: 70px;
+    padding-right: 60px;
+}
+
+.caption{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    position: justify-content-around;
+    padding-top: 0px;
+    padding-bottom: 50px;
+}
+
+.caption1{
+    padding-left: 90px;
+    padding-right: 60px;
+}
+
+.caption2{
+    padding-left: 70px;
+    padding-right: 60px;
+}
+
+.caption3{
+    padding-left: 70px;
+    padding-right: 60px;
+}

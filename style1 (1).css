@@ -1,0 +1,160 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 20px;
+    font-weight: 800;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white
+}
+.logo img{
+    width: 190px;
+    height: auto;
+    margin: auto;
+    padding: 28px 0px 0px 10px;
+}
+.menu{
+    float:right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex; 
+    line-height: 80px;
+    position:sticky ; 
+    position:-webkit-sticky; 
+    top: 0; 
+    background-color: #0D0C0C;
+    z-index: 1;
+
+}
+
+nav ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow:hidden;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    text-align: sticky;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 16px 0px 16px;
+    text-decoration: none;
+}
+.menu ul li a:hover {
+    text-decoration: underline;
+}
+
+.slider{
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+
+.img{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+image{
+    position: left;
+    width: 1000px;
+    height: auto;
+}
+
+section{
+    margin: auto;
+    
+    margin-left: 0px;
+    margin-bottom: 50px;
+
+}
+
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.kolom .deskripsi{
+    font-size: 20px;
+    font-weight: 'comic sans-ms';
+    color: brown;
+    position: left;
+}
+
+.imagebp{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+}
+h2{
+    font-family: 'comic sans-ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: brown;
+    width: 100%;
+    line-height: 50px;
+}
+
+.contact{
+    background: black;
+    margin-top: 10px;
+    padding: 0px 0px 0px 0px;
+}
+
+.footer{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin:auto;
+}
+
+.footer-section{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.star{
+    padding: 100px 20px 20px 30px;
+    font-size: 20px;
+}

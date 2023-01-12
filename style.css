@@ -1,0 +1,63 @@
+.bp{
+    width: 80%;
+}
+
+
+.section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 10px;
+}
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom.deskripsi{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans-ms';
+    color: black;
+}
+
+h2{
+    font-family: 'comic sans-ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: black;
+    width: 100%;
+    line-height: 50px;
+}
+
+
+
+
+.content .main-text a{
+    display: inline-block;
+    text-decoration: none;
+    color: aqua;
+    background: black;
+    border: 1px solid black;
+    padding:  9px 25px ;
+    line-height: 1.4;
+    border-radius: 30px;
+    font-size: 14px;
+}
+.content .main-text a:hover{
+    transform: scale(1,2);
+    border: 1px solid #000000;
+    background: transparent;
+    color: black;
+    transition: .4s;
+}
+.imagebp{
+    position: absolute;
+    width: 80%;
+    height: auto;
+    padding-left: 90px;
+    margin-left: 100px;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+}

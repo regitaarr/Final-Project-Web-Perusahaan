@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="widht=device-widht, initial-scale=1.0">
+        <title>HOME</title>
+        <link rel="stylesheet" href="style1.css"> 
+</head>
+<body>
+
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><img src="yg logo atas.png" alt="ini logo YGEntertainment"></a> 
+            <div class="menu">
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="artist.html">ARTIST</a></li>
+                    <li><a href="notice.html">NOTICE</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="game.html">AUDITION</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="yg build.jpg" alt="ini gambar gedung yg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="TheSameE cafe.jpg" alt="ini gambar TheSameE Cafe" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="studio dance.jpg" alt="ini gambar studio dance" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="produce music.jpg" alt="ini gambar produce music" style="width:100%">
+        </div>  
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+    </div>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+          <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+        
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+    </script>
+
+    <div class="sosmed">
+        <div class="youtube">
+            <a href="https://www.youtube.com/@YGEntertainment" target="_blank">
+            <img src="youtube.png" alt="ini logo youtube"widht="30px"height="30px">
+            </a>
+        </div>
+
+        <div class="spotify">
+            <a href="https://open.spotify.com/user/ygentertainment?si=e1c631ac28624569" target="_blank">
+            <img src="spotify.png" alt="ini logo spotify"widht="30px"height="30px">
+            </a>
+        </div>
+
+        <div class="instagram">
+            <a href="https://instagram.com/yg_ent_official?igshid=Yzg5MTU1MDY=" target="_blank">
+            <img src="instagram.png" alt="ini logo instagram"widht="30px"height="30px">
+            </a>
+        </div>
+
+        <div class="facebook">
+            <a href="https://www.facebook.com/ygfamily/" target="_blank">
+            <img src="facebook.png" alt="ini logo facebook"widht="37px"height="37px">
+            </a>
+        </div>
+
+        <div class="tiktok">
+            <a href="https://www.tiktok.com/@yg_ent_official?_t=8YnemWQKqLR&_r=1" target="_blank">
+            <img src="tiktok.png" alt="ini logo  tiktok"widht="31px"height="31px">
+            </a>
+        </div>
+
+        <div class="twitter">
+            <a href="https://twitter.com/ygent_official?t=h8gr05dSpcSZKCJ5m6VgOw&s=09" target="_blank">
+            <img src="twitter.png" alt="ini logo twitter"widht="30px"height="30px">
+            </a>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="distinct">
+            <h1>DISTINCT</h1>
+        </div>
+
+        <div class="forward">
+            <h1>FORWARD</h1>
+        </div>
+
+        <div class="collective">
+            <h1><u>COLLECTIVE</u></h1>
+        </div>
+    </div>
+
+    <div class="caption">
+        <div class="caption1">
+            <p>We offer a special brand experience
+                <br>
+                with our unique brand identity.</p>
+        </div>
+
+        <div class="caption2">
+            <p>We  lead the trend drawing upon our
+                <br> 
+                future oriented way of thingking and
+                <br> 
+                endless pursuit for innovation.</p>
+        </div>
+
+        <div class="caption2">
+            <p>We produce outstanding results through
+                <br>
+                idea sharing and cooperation.</p>
+        </div>
+        
+    </div>
+</body> 
+</html>
