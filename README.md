@@ -17,5 +17,5 @@ Tampilan Aplikasi
 5) Halaman Audition
    ![image](https://github.com/user-attachments/assets/fde063c2-a750-430b-8e56-70c68b2ee234)
 
-Website ini statis tidak menggunakan database untuk menyimpan atau memproses data. 
+Website ini statis, tidak menggunakan database untuk menyimpan atau memproses data. 
 
